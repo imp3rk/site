@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /assets/
 
 Sitemap: https://darkobarth.dev/sitemap.xml
+Host: https://darkobarth.dev
