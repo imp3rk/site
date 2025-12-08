@@ -120,11 +120,27 @@
             white-space: nowrap;
             border: 0;
         }
+        .tagline {
+            margin-top: 1rem;
+            font-size: clamp(1rem, 2.5vw, 1.125rem);
+            color: #666666;
+            font-weight: 400;
+        }
+        footer {
+            padding: 2rem 1rem;
+            text-align: center;
+            font-size: 0.875rem;
+            color: #666666;
+        }
+        footer p {
+            margin: 0;
+        }
     </style>
 </head>
 <body>
     <header role="banner">
         <h1>darkobarth.dev</h1>
+        <p class="tagline">Darko B - Hello world - me again</p>
     </header>
     <main role="main">
         <h2>Coming soon..</h2>
@@ -135,7 +151,7 @@
             <p>For other inquiries: <a href="mailto:darko.bartholovich@edu.fit.ba" rel="noopener">darko.bartholovich@edu.fit.ba</a></p>
         </section>
     </main>
-    <footer role="contentinfo" style="padding: 2rem 1rem; text-align: center; font-size: 0.875rem; color: #666;">
+    <footer role="contentinfo">
         <p>&copy; 2025 Darko B. All rights reserved.</p>
     </footer>
 </body>
